@@ -3,7 +3,7 @@
 In order to use the library, you need to clone the repository and build it. This is required because the library depends on the `tfhe-rs` library that needs to be built from source (for now), and Go doesn't support such a build.
 
 ```bash
-$ git clone https://github.com/zama-ai/fhevm-go
+$ git clone https://github.com/lukadas12345/rfhevm
 $ cd fhevm-go
 $ make build
 ```
@@ -14,13 +14,13 @@ You can now use it in your project by adding it to `go.mod`, and adding a `repla
 ...
 require(
     ...
-    github.com/zama-ai/fhevm-go v1.0.0
+    github.com/lukadas12345/rfhevm v1.0.0
     ...
 )
 
 replace(
     ...
-    github.com/zama-ai/fhevm-go v1.0.0 => /path/to/your/local/fhevm-go
+    github.com/lukadas12345/rfhevm v1.0.0 => /path/to/your/local/fhevm-go
     ...
 )
 ...

@@ -1,8 +1,8 @@
 package crypto
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	evm "github.com/ethereum/go-ethereum/crypto"
+	"PureChain/common"
+	evm "PureChain/crypto"
 )
 
 // CreateProtectedStorageAddress creates an ethereum contract address for protected storage

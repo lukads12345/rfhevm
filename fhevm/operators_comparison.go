@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"PureChain/accounts/abi"
+	"PureChain/common"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 	"go.opentelemetry.io/otel/trace"
 )
 

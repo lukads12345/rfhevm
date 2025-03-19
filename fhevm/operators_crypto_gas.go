@@ -3,8 +3,8 @@ package fhevm
 import (
 	"encoding/hex"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"PureChain/common"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 )
 
 func verifyCiphertextRequiredGas(environment EVMEnvironment, input []byte) uint64 {

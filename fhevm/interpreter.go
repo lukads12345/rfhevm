@@ -1,8 +1,8 @@
 package fhevm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"PureChain/common"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 )
 
 type ScopeContext interface {

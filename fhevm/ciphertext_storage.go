@@ -3,9 +3,9 @@ package fhevm
 import (
 	"encoding/hex"
 
-	"github.com/ethereum/go-ethereum/common"
+	"PureChain/common"
 	"github.com/holiman/uint256"
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 )
 
 var CiphertextStorageAddress = common.BytesToAddress([]byte{94})

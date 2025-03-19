@@ -3,7 +3,7 @@ package fhevm
 import (
 	"encoding/hex"
 
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 )
 
 func fheAddSubRequiredGas(environment EVMEnvironment, input []byte) uint64 {

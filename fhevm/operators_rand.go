@@ -8,11 +8,11 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"PureChain/common"
+	"PureChain/crypto"
 	"github.com/holiman/uint256"
-	fhevm_crypto "github.com/zama-ai/fhevm-go/fhevm/crypto"
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	fhevm_crypto "github.com/lukadas12345/rfhevm/fhevm/crypto"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 	"go.opentelemetry.io/otel/trace"
 	"golang.org/x/crypto/chacha20"
 )

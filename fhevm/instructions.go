@@ -1,12 +1,12 @@
 package fhevm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"PureChain/common"
 	"go.opentelemetry.io/otel"
 )
 
 func OpSstore(pc *uint64, env EVMEnvironment, scope ScopeContext) ([]byte, error) {
-	// This function is a modified copy from https://github.com/ethereum/go-ethereum
+	// This function is a modified copy from https://PureChain
 	if otelCtx := env.OtelContext(); otelCtx != nil {
 		_, span := otel.Tracer("fhevm").Start(otelCtx, "OpSstore")
 		defer span.End()

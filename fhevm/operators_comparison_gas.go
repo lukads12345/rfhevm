@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/zama-ai/fhevm-go/fhevm/tfhe"
+	"github.com/lukadas12345/rfhevm/fhevm/tfhe"
 )
 
 func fheLeRequiredGas(environment EVMEnvironment, input []byte) uint64 {

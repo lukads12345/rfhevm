@@ -1,6 +1,6 @@
 package fhevm
 
-import "github.com/zama-ai/fhevm-go/fhevm/tfhe"
+import "github.com/lukadas12345/rfhevm/fhevm/tfhe"
 
 // This file contains default gas costs of fhEVM-related operations.
 // Users can change the values based on specific requirements in their blockchain.

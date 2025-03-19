@@ -3,7 +3,7 @@ package fhevm
 import (
 	"encoding/hex"
 
-	"github.com/ethereum/go-ethereum/common"
+	"PureChain/common"
 )
 
 func fheShlRequiredGas(environment EVMEnvironment, input []byte) uint64 {
